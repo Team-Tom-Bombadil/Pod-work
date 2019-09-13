@@ -77,7 +77,7 @@
     let userList = customers.reduce((userArray, user) => {
         userArray.push({name: user.name, age: user.age});
         return userArray;
-    }, []);
+    }, []);2
     console.log(userList);
     // PROBLEM 3 - create an array of civil servant customers (teachers and police officers)
     // containing the same properties as the objects on the customers objects
